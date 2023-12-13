@@ -1,2 +1,6 @@
-# Text Based Adventure Game
+This assignment was the final project for my first coding class, Introduction to Scripting.  I was asked to create a text-based adventure game with a theme, and a character that could move between rooms and collect objects. If the play is able to collect all of the objects before the encounter the villian, they win the game. If not, they lose and will have to restart. I used a Mario theme for this game because I am a big fan of old video games, and my children are finally old enough to play them now too!
+
+Being new to programming, this assigmment was a challenge.  I needed to include input validation for the directions entered by the player, as well as creating a dictionary of the rooms, associating these with the neighboring rooms. I also created functions for the startup menu and moving between rooms, which loops through the rooms as the player enters commands, and only exits if the player types "exit" or loses the game by entering the room with the villian (Bowser) before acquiring all necessary items. Finally, I added some ASCII art to make the game a little more fun for the player.
+
+Overall, I felt this game was well done for my first project, although some improvements could have been made. I would have like to make the game slightly more complex, adding other tasks when rooms are entered, such as using an item in a battle. I also could have used input validation to check for incorrect input and reprompt the user rather than exiting the game.  
  
